@@ -1,0 +1,29 @@
+{
+  "name": "race-assignment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "jest"
+  },
+  "jest": {
+    "testEnvironment": "node"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pankaj-shimpi/gateway.git"
+  },
+  "author": "Pankaj Shimpi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pankaj-shimpi/gateway/issues"
+  },
+  "homepage": "https://github.com/pankaj-shimpi/gateway#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "jest": "^27.3.1"
+  }
+}
