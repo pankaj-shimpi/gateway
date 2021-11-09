@@ -11,8 +11,9 @@ Pre-requisite
 
 # Make sure you have NodeJS and NPM installed.
 
-# Make sure you have set all the required environment variables.
+1. Make sure you have set all the required environment variables.
 
+```
 e.g
 PORT=//Port number for the server to run
 AUTH_EMAIL=//email id to authenticate a user
@@ -23,38 +24,39 @@ DB_PASS=database password
 DB_HOST=database host
 
 Note: We have used mongoDB atlas as DB host. so we need to configure the database details in environment variable.
+```
 
-1. Now go to the directory.
+2. Now go to the directory.
 
 ```
     cd gateway
 ```
 
-2. Install the server dependencies
+3. Install the server dependencies
 
 ```
     npm install
 ```
 
-3. Run server
+4. Run server
 
 ```
     To run the server you can either run the command npm start or node src/server.js.
 ```
 
-4. To run the tests.
+5. To run the tests.
 
 ```
     npm run test
 ```
 
-5. To get the test coverage
+6. To get the test coverage
 
 ```
     npm run test:coverage
 ```
 
-6. to check lint issues
+7. to check lint issues
 
 ```
     npm run lint
