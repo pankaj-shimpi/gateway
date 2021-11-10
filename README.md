@@ -10,6 +10,7 @@ https://github.com/pankaj-shimpi/gateway.git
 Pre-requisite
 
 # Make sure you have NodeJS and NPM installed.
+# Here we do not have dockerfile for mongodb. instead db is hosted through mongodb atlas.
 
 1. Make sure you have set all the required environment variables. Need to create .env file in the root directory.
 
