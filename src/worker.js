@@ -45,4 +45,4 @@ const worker = async () => {
   }
 };
 
-module.exports = { worker };
+module.exports = { worker, reAuth };

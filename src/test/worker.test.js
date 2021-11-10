@@ -2,7 +2,11 @@
 const { worker } = require("../worker");
 
 describe("Worker test", () => {
-  it("should get events and store it to db", () => {
-    
-  });
+  beforeEach(() => {});
+
+  afterEach(() => {});
+
+  it("should authenticate a user", async () => {});
+
+  it("should get events and store it to db", () => {});
 });
