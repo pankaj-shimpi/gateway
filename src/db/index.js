@@ -1,8 +1,8 @@
 /* eslint-disable no-console */
 const mongoose = require("mongoose");
 
-const { DB_NAME, DB_USER, DB_PASS, DB_HOST } = process.env;
-const connectionString = `mongodb+srv://${DB_USER}:${DB_PASS}@${DB_HOST}/${DB_NAME}?retryWrites=true&w=majority`;
+const { DB_NAME } = process.env;
+const connectionString = `mongodb://mongo:27017/${DB_NAME}`;
 
 const connect = async () => {
   try {
