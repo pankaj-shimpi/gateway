@@ -4,6 +4,7 @@ const mongoose = require("mongoose");
 const { DB_NAME } = process.env;
 const connectionString = `mongodb://mongo:27017/${DB_NAME}`;
 
+// Method to connect mongodb with node app.
 const connect = async () => {
   try {
     await mongoose.connect(connectionString);
@@ -13,6 +14,8 @@ const connect = async () => {
   }
 };
 
+
+// Method to close a connection
 const close = async () => {
   try {
     await mongoose.disconnect();

@@ -1,6 +1,7 @@
 const mongoose = require("mongoose");
 const { Schema } = mongoose;
 
+// Events schema
 const Event = new Schema({
   event: String,
   horse: {

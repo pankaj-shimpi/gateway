@@ -2,6 +2,7 @@
 const axios = require("../axios-config");
 const { logError } = require("../utility/log-error");
 
+// Method to call an external API and get data.
 const get = async url => {
   try {
     const { data } = await axios.request({
@@ -15,7 +16,6 @@ const get = async url => {
 
     return data;
   } catch (error) {
-    console.log("Error");
     const {
       response: { status }
     } = error;

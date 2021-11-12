@@ -1,6 +1,7 @@
 const axios = require("../axios-config");
 const { logError } = require("../utility/log-error");
 
+// Method to authenticate a user.
 const auth = async () => {
   global.authToken = null;
   try {
